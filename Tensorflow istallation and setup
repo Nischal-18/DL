@@ -1,0 +1,9 @@
+python --version
+python -m venv tf-env
+tf-env\Scripts\activate     # Windows
+source tf-env/bin/activate  # Mac/Linux
+pip install --upgrade pip
+pip install tensorflow
+pip install tensorflow-gpu
+import tensorflow as tf
+print(tf.__version__)
