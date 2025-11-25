@@ -1,0 +1,8 @@
+python --version
+python -m venv keras-env
+keras-env\Scripts\activate
+source keras-env/bin/activate
+pip install --upgrade pip
+pip install tensorflow
+import tensorflow as tf
+print(tf.keras.__version__)
